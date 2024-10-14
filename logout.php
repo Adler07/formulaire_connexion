@@ -6,6 +6,6 @@
     session_destroy(); // Detruit la session
 
     // Rediriger vers la page de connexion après déconnexion
-    header("location: connexion.html");
+    header("location: connexionForm.php");
     exit;
     ?>
